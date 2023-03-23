@@ -1,0 +1,117 @@
+m255
+K3
+13
+cModel Technology
+dD:\Facultate\An 2\Sem1\An 2\Sem 1\AC\modelsim\win32aloem
+vcounter
+!s100 <`<2ijPj18R^Ho=d7oFg[2
+Iol5^<_Kj>Czo]`eh1mNK:1
+VokJF4HM6zVaPPfKoC<ih<3
+Z0 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
+w1679602245
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
+L0 1
+Z1 OV;L;6.5b;42
+r1
+!s85 0
+31
+!s101 -O0
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+vfac
+Io8VSfj9>04`m4:oL5k2463
+VkXY]J^5DLHF2EUCg4[FFP1
+Z4 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
+w1679602225
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 UnHhX4Ib1N4@eckDY1=k[1
+!s85 0
+!s101 -O0
+vparallel_adder
+I6^6_NKiX[f]=;=nQbNMQ30
+VdgK_HY;aFiK6j:2TdJd>h0
+R4
+w1679602210
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 zO=`e7_mKV=LTcVPURkLZ1
+!s85 0
+!s101 -O0
+vreg_m
+I8JYMo>;`LP0ZfHVn<d4m22
+VhLQg:lXX@K<JX=:^;5[Tj2
+R4
+w1679602088
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_m.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_m.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 2RWOIDLU[l[[71IK^LmZK2
+!s85 0
+!s101 -O0
+vreg_q
+IGm[VEW:5]KDe4;^hD9WFE0
+V=fAHXdD@QiLTLbPb94[>?1
+R4
+w1679602127
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 TM]j7<>7WVEz]0m`<zJ7c3
+!s85 0
+!s101 -O0
+vreg_q_1
+I_NK]>_a@5?@gnA9amL2Tj3
+VOGVRFz>MUb5QJnT^4aaKk0
+R4
+w1679602150
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q_1.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q_1.v
+L0 2
+R1
+r1
+31
+R2
+R3
+!s100 oSmKD^;3IWLV=VeY4Gid`3
+!s85 0
+!s101 -O0
+vxor_m_3
+I3<BgY`giRmA]13e4Fl@Eb2
+Vcnc=JfRaRkGmJ2aU_dK6_0
+R4
+w1679602189
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 QRze^SoG><WC=6Jja?fQZ3
+!s85 0
+!s101 -O0
