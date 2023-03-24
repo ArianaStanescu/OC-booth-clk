@@ -3,10 +3,10 @@ module reg_m(
   output reg [7:0] q
 );
 
-always@(posedge clk, negedge rst_b) begin
+always@(posedge c0, negedge rst_b) begin
   if(!rst_b) // if rst_b == 0
     q <= 0;
-  else if (c0) // load activ => incarcam de pe inbus in registru
+  else if (c0)
     q <= ibus;
   end
 endmodule

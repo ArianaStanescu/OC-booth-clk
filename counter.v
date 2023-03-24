@@ -6,14 +6,10 @@ module counter(
 reg [2:0] count;
 
 always@(posedge clk, negedge rst_b) begin
-  if(!rst_b) begin
-    //count <= 0;
+  if(!rst_b) 
     count <=0;
-  end
-  else if (c0) begin // load activ => incarcam de pe inbus in registru
-    //count <= 0;
+  else if (c0) // load activ => incarcam de pe inbus in registru
     count <= count + 1;
-  end
 end
 
 //count7 <= count;

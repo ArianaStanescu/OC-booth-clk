@@ -3,26 +3,90 @@ K3
 13
 cModel Technology
 dD:\Facultate\An 2\Sem1\An 2\Sem 1\AC\modelsim\win32aloem
-vcounter
-!s100 <`<2ijPj18R^Ho=d7oFg[2
-Iol5^<_Kj>Czo]`eh1mNK:1
-VokJF4HM6zVaPPfKoC<ih<3
+vadder_xor
+IaN_m5RPX<<dE3hDLfFfWD1
+VPo2_^c0Jf<AjiE1EE[95U1
 Z0 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
-w1679602245
-8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
-FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
+w1679666319
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v
 L0 1
 Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 6VYff@T1Kgno]iX4^GW@a1
+!s85 0
+!s101 -O0
+vadder_xor_tb
+I`6HAU7<HJ:O@aWnb7IULa3
+VWb36l8H4Y2c0FQY9WT2gK1
+Z4 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
+w1679666818
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor_tb.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 Kg7Im:7M`<TX?VFlgzND^2
+!s85 0
+!s101 -O0
+vcontrol_unit
+Iga`<<?UYKgl04lbTNFdS63
+V1d2Yc?XOK?0Z1ncl`V^nG0
+R4
+w1679671366
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 ]e@HY3Q_GU]CDooKiU1281
+!s85 0
+!s101 -O0
+vcontrol_unit_tb
+!s100 `IV3Da_@Ze>>?bX<CIkTC3
+Ig>zO6WGfViK^J[O^OiKha3
+V0fe_`n]a=8]g`ekH8PNmB1
+R4
+w1679671193
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit_tb.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit_tb.v
+L0 1
+R1
 r1
 !s85 0
 31
 !s101 -O0
-Z2 !s102 -nocovercells
-Z3 o-work work -nocovercells -O0
+R2
+R3
+vcounter
+I9FNHO5UdbaJ8m=K?4ME7[1
+VokJF4HM6zVaPPfKoC<ih<3
+R4
+w1679663982
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 IO`nV0RlX^Pk;FA^DMT>;0
+!s85 0
+!s101 -O0
 vfac
 Io8VSfj9>04`m4:oL5k2463
 VkXY]J^5DLHF2EUCg4[FFP1
-Z4 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
+R4
 w1679602225
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v
@@ -36,10 +100,10 @@ R3
 !s85 0
 !s101 -O0
 vparallel_adder
-I6^6_NKiX[f]=;=nQbNMQ30
-VdgK_HY;aFiK6j:2TdJd>h0
+Ig3YJfjjQ<h1S>FTCLj40T1
+VW1?369DNVkmi3JIca:kgf2
 R4
-w1679602210
+w1679665605
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder.v
 L0 1
@@ -48,14 +112,46 @@ r1
 31
 R2
 R3
-!s100 zO=`e7_mKV=LTcVPURkLZ1
+!s100 EPzN4biC[W>VICWAz1igW3
+!s85 0
+!s101 -O0
+vparallel_adder_tb
+IC86f`54GI6m<cl8zdHER=3
+VXTmz;JzAaY:QjV7VNzNXX3
+R4
+w1679666601
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder_tb.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 jYS9b<[CY6STXjmM_f]BB1
+!s85 0
+!s101 -O0
+vreg_a
+IgM8H5?mRje]d]T>g:=?Kc0
+V<Cf[GS37Q:lNU@SkG6PNz0
+R4
+w1679657859
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_a.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_a.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 SoTjP^OAz^CT>3MIof4ba3
 !s85 0
 !s101 -O0
 vreg_m
-I8JYMo>;`LP0ZfHVn<d4m22
+IN[2[APgMUAg8eTk8W<2c93
 VhLQg:lXX@K<JX=:^;5[Tj2
 R4
-w1679602088
+w1679657177
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_m.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_m.v
 L0 1
@@ -64,14 +160,14 @@ r1
 31
 R2
 R3
-!s100 2RWOIDLU[l[[71IK^LmZK2
+!s100 ?=KYJ:AjRESV^i9P<`HX40
 !s85 0
 !s101 -O0
 vreg_q
-IGm[VEW:5]KDe4;^hD9WFE0
-V=fAHXdD@QiLTLbPb94[>?1
+IcJghBA5HFm8cgC;DOeojI2
+VeA=XHLo=ndMZ^?jz_i1dc3
 R4
-w1679602127
+w1679657137
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q.v
 L0 1
@@ -80,38 +176,86 @@ r1
 31
 R2
 R3
-!s100 TM]j7<>7WVEz]0m`<zJ7c3
+!s100 RKjY>6S_e4XFKKjjLFMTY0
 !s85 0
 !s101 -O0
 vreg_q_1
-I_NK]>_a@5?@gnA9amL2Tj3
-VOGVRFz>MUb5QJnT^4aaKk0
+IS=BZ]eIT;Kh5QbReTc=K^2
+V=^z_EzzYJ@8IC=21TeXY?1
 R4
-w1679602150
+w1679657272
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q_1.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q_1.v
-L0 2
-R1
-r1
-31
-R2
-R3
-!s100 oSmKD^;3IWLV=VeY4Gid`3
-!s85 0
-!s101 -O0
-vxor_m_3
-I3<BgY`giRmA]13e4Fl@Eb2
-Vcnc=JfRaRkGmJ2aU_dK6_0
-R4
-w1679602189
-8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v
-FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v
 L0 1
 R1
 r1
 31
 R2
 R3
-!s100 QRze^SoG><WC=6Jja?fQZ3
+!s100 K_ak3;eMf[X[@MGfW[@G_1
+!s85 0
+!s101 -O0
+vxor_gate
+IcMMGmC_8<e8G=T7]8nnWg0
+V7IWb16UfeMiFYDFWS70K?0
+R4
+w1679664686
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 j`0LQ33]8kON2>2TKIcQV2
+!s85 0
+!s101 -O0
+vxor_gate_tb
+Io:Nh`oUc[ehSlgdz83j720
+V@PFb;MMVlR:LbLIEaHPTm1
+R4
+w1679664496
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 GZmYf7if?4IcdPFG8zlIQ2
+!s85 0
+!s101 -O0
+vxor_m_3
+Ia]GJI`A6IPSTPaEn3nl4O2
+Vcnc=JfRaRkGmJ2aU_dK6_0
+R4
+w1679664543
+Z5 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v
+Z6 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 S[T>_hN]?6=CH=07VPL?J0
+!s85 0
+!s101 -O0
+vxor_m_c3
+IGfZd`VNHU5dl4moz@06D_0
+V=Hi5X8^HP3fCD=`433bm^0
+R4
+w1679664625
+R5
+R6
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 ;5Y4YA?Ce2E02a]5N=j_g3
 !s85 0
 !s101 -O0

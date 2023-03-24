@@ -1,4 +1,4 @@
-module xor_m_3( 
+module xor_m_c3( 
   input wire m, c3,
   output wire out);
   
