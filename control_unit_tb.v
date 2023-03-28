@@ -81,6 +81,12 @@ initial begin
   #10
   clk = 1; //ajungem in S7
   
+  #10
+  clk = 0;
+  
+  #10
+  clk = 1; //ajungem in S7
+  
 end
   control_unit inst(.clk(clk), .rst_b(rst_b), .bgn(bgn), .q0(q0), .q_1(q_1), .count7(count7),
   .c0(c0), .c1(c1), .c2(c2), .c3(c3), .c4(c4), .c5(c5), .c6(c6), .stop(stop));

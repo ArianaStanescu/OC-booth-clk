@@ -12,7 +12,7 @@ always@(posedge clk, negedge rst_b) begin
     q <= 0;
   else if (c0)
     q <= 0;
-  else if(c2)
+  else if(c4)
     q <= q + sum;
   if(c4) 
   begin

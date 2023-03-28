@@ -1,9 +1,10 @@
+/*
 module booth_tb;
   reg clk, bgn, rst_b;
   reg[7:0] ibus;
   wire stop;
   wire[7:0] obus;
-  wire [7:0] m, a, out_parallel, q;
+  
   initial begin
     
     #10
@@ -81,13 +82,46 @@ module booth_tb;
     
   end
   
-	//always
-//	begin
-	
-	//	clk=~clk;
-	//	#20;
-	
-	//end
   
-booth legatura(.q(q), .clk(clk), .bgn(bgn), .rst_b(rst_b), .ibus(ibus), .obus(obus), .stop(stop), .a(a), .m(m), .out_parallel(out_parallel));
+	always
+  begin
+	
+		clk=~clk;
+  	#20;
+	
+	end
+	
+  
+booth legatura( .clk(clk), .bgn(bgn), .rst_b(rst_b), .ibus(ibus), .obus(obus), .stop(stop));
+endmodule
+*/
+module booth_tb;
+  reg clk, bgn, rst_b;
+  reg[7:0] ibus;
+  wire stop;
+  wire[7:0] obus;
+  
+  initial begin
+    clk = 0;
+    bgn = 1;
+    rst_b = 0;
+  #20
+  ibus = 2;
+  #20
+  ibus = 3;
+  #20;
+    
+  end
+  
+  
+	always
+  begin
+	
+		clk=~clk;
+  	#20;
+	
+	end
+	
+  
+booth legatura( .clk(clk), .bgn(bgn), .rst_b(rst_b), .ibus(ibus), .obus(obus), .stop(stop));
 endmodule

@@ -17,63 +17,65 @@ reg [2:0] st;
 reg [2:0] st_nxt;
   
   always@(*) begin
+    
     case(st)
       S0 : begin 
-            stop = 0;
-            c0=0;c1=0;c2=0;c3=0;c4=0;c5=0;c6=0;
-            if(bgn) st_nxt = S1;
-              else st_nxt = S0;
+            stop <= 0;
+            c0<=0;c1<=0;c2<=0;c3<=0;c4<=0;c5<=0;c6<=0;
+            if(bgn) st_nxt <= S1;
+              else st_nxt <= S0;
             end
       S1 : begin
-            c0=1;
-            st_nxt = S2;
+            c0<=1;
+            st_nxt <= S2;
           end 
       S2 : begin
-            c0=0;  //acum sunt toti clks pe 0
-            c1 = 1; 
-            c4 = 0;
-            if(q0 == 0 && q_1 == 1) st_nxt = S3;
-            else if(q0 == 1 && q_1 == 0) st_nxt = S4;
-            else st_nxt = S5;   
+            c0<=0;  //acum sunt toti clks pe 0
+            c1 <= 1; 
+            c4 <= 0;
+            if(q0 == 0 && q_1 == 1) st_nxt <= S3;
+            else if(q0 == 1 && q_1 == 0) st_nxt <= S4;
+            else st_nxt <= S5;   
           end
       S3 : begin
-            c1=0;
-            c2 = 1;
-            st_nxt = S5;
+            c1<=0;
+            c2 <= 1;
+            st_nxt <= S5;
           end
       S4 : begin
-            c1=0;
-            c2 = 1;
-            c3 = 1;
-            st_nxt = S5;
+            c1<=0;
+            c2<= 1;
+            c3 <= 1;
+            st_nxt <= S5;
           end
       S5 : begin
-            c1=0;
-            c2 = 0;
-            c3 = 0;
-            c4 = 1;
+            c1<=0;
+            c2 <= 0;
+            c3 <= 0;
+            c4 <= 1;
             if(count7 == 0)
-              st_nxt = S2;
-            else st_nxt = S6;
+              st_nxt <= S2;
+            else st_nxt <= S6;
           end
           
        S6 : begin
-            c1=0;
-            c2 = 0;
-            c3 = 0;
-            c4=0;
-            c5 = 1;
-            st_nxt = S6;
+            c1<=0;
+            c2<=0;
+            c3<=0;
+            c4<=0;
+            c5<=1;
+            st_nxt <= S7;
           end
           
         S7 : begin
-            c5=0;
-            c6=1;
-            stop = 1;
+            c5<=0;
+            c6<=1;
+            stop <= 1;
             //bgn = 0;
-            //st_nxt = S0;
+            st_nxt = S0;
           end
     endcase
+    
 end
 
 
@@ -81,5 +83,6 @@ always@(posedge clk, negedge rst_b) begin
   if(!rst_b) st <= S0; // rst_b asincton, if(rst_b==0)
   else st <= st_nxt;
 end
+
 
 endmodule

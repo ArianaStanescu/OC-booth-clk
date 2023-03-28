@@ -1,6 +1,5 @@
-
 module reg_q_1(
-  input clk, rst_b, c0, q_lsb,
+  input clk, rst_b, c0, c4, q_lsb,
   output reg q
 );
 
@@ -9,7 +8,7 @@ always @(posedge clk, negedge rst_b) begin
     q <= 0;
   else if(c0)
     q <= 0;
-  else
+  else if(c4)
     q <= q_lsb;
   end
   

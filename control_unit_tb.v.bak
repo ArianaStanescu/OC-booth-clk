@@ -74,6 +74,7 @@ initial begin
   
   #10
   clk = 1; //ajungem in S7
+  
   #10
   clk = 0;
   

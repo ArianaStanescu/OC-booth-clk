@@ -2,16 +2,15 @@ module booth(
   input clk, bgn, rst_b, 
   input[7:0] ibus,
   output stop, 
-  output [7:0] obus,
-  output [7:0] m, a, out_parallel,q
+  output [7:0] obus
 );
 
 wire c0, c1, c2, c3, c4, c5, c6, q_lsb, q_1, count7, a_lsb;
-//wire [7:0] m, a, out_parallel;
+wire [7:0] m, a, out_parallel;
 wire [7:0] out_xor;
 
 reg_m leg1( .clk(clk), .rst_b(rst_b), .c0(c0), .ibus(ibus), .q(m));
-//adder_xor leg2(.x(m), .y(a), .c3(c3), .out(out_parallel));
+
 reg_a leg4(.clk(clk), .rst_b(rst_b), .c0(c0), .c2(c2), .c4(c4), .c5(c5), 
           .sum(out_parallel), .a_lsb(a_lsb), .q(a), .obus(obus));
 reg_q leg3( .clk(clk), .rst_b(rst_b), .c1(c1), .c4(c4), .c6(c6), .a_lsb(a_lsb), .q_lsb(q_lsb), .ibus(ibus), .obus(obus));

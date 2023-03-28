@@ -17,6 +17,7 @@ reg [2:0] st;
 reg [2:0] st_nxt;
   
   always@(*) begin
+    
     case(st)
       S0 : begin 
             stop = 0;
@@ -38,12 +39,12 @@ reg [2:0] st_nxt;
           end
       S3 : begin
             c1=0;
-            c2 = 1;
+            c2=1;
             st_nxt = S5;
           end
       S4 : begin
             c1=0;
-            c2 = 1;
+            c2= 1;
             c3 = 1;
             st_nxt = S5;
           end
@@ -59,10 +60,10 @@ reg [2:0] st_nxt;
           
        S6 : begin
             c1=0;
-            c2 = 0;
-            c3 = 0;
+            c2=0;
+            c3=0;
             c4=0;
-            c5 = 1;
+            c5=1;
             st_nxt = S7;
           end
           
@@ -71,9 +72,10 @@ reg [2:0] st_nxt;
             c6=1;
             stop = 1;
             //bgn = 0;
-            //st_nxt = S0;
+            st_nxt = S0;
           end
     endcase
+    
 end
 
 
@@ -81,5 +83,6 @@ always@(posedge clk, negedge rst_b) begin
   if(!rst_b) st <= S0; // rst_b asincton, if(rst_b==0)
   else st <= st_nxt;
 end
+
 
 endmodule

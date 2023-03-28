@@ -26,6 +26,13 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	parallel_adder
 
+} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter_tb.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter_tb.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
 } {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit_tb.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit_tb.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module control_unit_tb
@@ -39,6 +46,13 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 
 Top level modules:
 	adder_xor_tb
+
+} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module xor_gate_tb
+
+Top level modules:
+	xor_gate_tb
 
 } {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_a.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_a.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -54,20 +68,6 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	reg_q
 
-} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v}
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module xor_gate_tb
-
-Top level modules:
-	xor_gate_tb
-
-} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v}
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module adder_xor
-
-Top level modules:
-	adder_xor
-
 } {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module counter
@@ -82,12 +82,12 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	control_unit
 
-} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v}
+} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module fac
+-- Compiling module adder_xor
 
 Top level modules:
-	fac
+	adder_xor
 
 } {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_m_c3.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -95,6 +95,13 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 
 Top level modules:
 	xor_m_c3
+
+} {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module fac
+
+Top level modules:
+	fac
 
 } {} {}} {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/booth.v} {1 {vlog -work work -nocovercells {D:/Facultate/An 2/Sem2/OC/Booth-clk-final/booth.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009

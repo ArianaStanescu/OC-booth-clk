@@ -9,12 +9,11 @@ always@(posedge clk, negedge rst_b) begin
   if(!rst_b) 
     count <=0;
   else if(c0)
-  count <= 0;
+    count <= 0;
   else if (c4) // load activ => incarcam de pe inbus in registru
     count <= count + 1;
 end
 
-//count7 <= count;
 assign count7 = count[0] & count[1] & count[2];
 
 endmodule
