@@ -1,3 +1,4 @@
+
 module control_unit(
   input clk, rst_b, bgn, q_1, q0, count7, // q_1 e q[-1] adica iesirea din reg_q_1, q0 e ultimul bit din Q adica q0 = Q[0] 
   output reg c0, c1, c2, c3, c4, c5, c6, stop // stop = end
@@ -17,60 +18,65 @@ reg [2:0] st;
 reg [2:0] st_nxt;
   
   always@(*) begin
-    
+    stop = 0;
+    c0=0;c1=0;c2=0;c3=0;c4=0;c5=0;c6=0;
     case(st)
       S0 : begin 
-            stop <= 0;
-            c0<=0;c1<=0;c2<=0;c3<=0;c4<=0;c5<=0;c6<=0;
-            if(bgn) st_nxt <= S1;
-              else st_nxt <= S0;
+            if(bgn) begin st_nxt = S1; c0 = 1; end
+              else st_nxt = S0;
             end
       S1 : begin
-            c0<=1;
-            st_nxt <= S2;
+            c1=1;
+            c0 = 0;
+            st_nxt = S2;
           end 
       S2 : begin
-            c0<=0;  //acum sunt toti clks pe 0
-            c1 <= 1; 
-            c4 <= 0;
-            if(q0 == 0 && q_1 == 1) st_nxt <= S3;
-            else if(q0 == 1 && q_1 == 0) st_nxt <= S4;
-            else st_nxt <= S5;   
+            c0=0;  //acum sunt toti clks pe 0
+            c1 = 0; 
+            //c4 = 0;
+            if(q0 == 0 && q_1 == 1) begin c2 = 1; st_nxt = S3; end
+            else if(q0 == 1 && q_1 == 0) begin c2 = 1; c3 = 1; st_nxt = S4; end
+            else begin st_nxt = S5; c4 = 1; end  
           end
       S3 : begin
-            c1<=0;
-            c2 <= 1;
-            st_nxt <= S5;
+            c1=0;
+            c2 = 0;
+            c4=1;
+            st_nxt = S5;
           end
       S4 : begin
-            c1<=0;
-            c2<= 1;
-            c3 <= 1;
-            st_nxt <= S5;
+            c1=0;
+            c2= 0;
+            c3 = 0;
+            c4 = 1;
+            st_nxt = S5;
           end
       S5 : begin
-            c1<=0;
-            c2 <= 0;
-            c3 <= 0;
-            c4 <= 1;
-            if(count7 == 0)
-              st_nxt <= S2;
-            else st_nxt <= S6;
+            c1=0;
+            c2 = 0;
+            c3 = 0;
+            c4 = 0;
+            if(count7 == 0)begin
+              st_nxt = S2;
+              c1 = 1;
+            end
+            else begin st_nxt = S6; c5 = 1; end
           end
           
        S6 : begin
-            c1<=0;
-            c2<=0;
-            c3<=0;
-            c4<=0;
-            c5<=1;
-            st_nxt <= S7;
+            c1=0;
+            c2=0;
+            c3=0;
+            c4=0;
+            c5=0;
+            c6 = 1;
+            st_nxt = S7;
           end
           
         S7 : begin
-            c5<=0;
-            c6<=1;
-            stop <= 1;
+            c5=0;
+            c6=0;
+            stop = 1;
             //bgn = 0;
             st_nxt = S0;
           end

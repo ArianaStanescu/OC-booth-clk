@@ -1,4 +1,4 @@
-/*
+
 module booth_tb;
   reg clk, bgn, rst_b;
   reg[7:0] ibus;
@@ -23,14 +23,14 @@ module booth_tb;
   #10 //ajungem in S1
   clk = 1;
   bgn = 1;
-  ibus = 2;
+  ibus = 32;
   
   #10
   clk = 0;
   
   #10
   clk = 1; //ajugem in startea S2
-  ibus = 3;
+  ibus = 85;
   
   #10
   clk = 0;
@@ -87,14 +87,14 @@ module booth_tb;
   begin
 	
 		clk=~clk;
-  	#20;
+  	#10;
 	
 	end
 	
   
 booth legatura( .clk(clk), .bgn(bgn), .rst_b(rst_b), .ibus(ibus), .obus(obus), .stop(stop));
 endmodule
-*/
+/*
 module booth_tb;
   reg clk, bgn, rst_b;
   reg[7:0] ibus;
@@ -104,12 +104,13 @@ module booth_tb;
   initial begin
     clk = 0;
     bgn = 1;
-    rst_b = 0;
-  #20
-  ibus = 2;
-  #20
-  ibus = 3;
-  #20;
+    rst_b = 1;
+    
+    #20
+    ibus = 2;
+    #20
+    ibus = 3;
+    clk = 1;
     
   end
   
@@ -125,3 +126,4 @@ module booth_tb;
   
 booth legatura( .clk(clk), .bgn(bgn), .rst_b(rst_b), .ibus(ibus), .obus(obus), .stop(stop));
 endmodule
+*/

@@ -18,7 +18,9 @@ always @(posedge clk, negedge rst_b) begin
         q <= (q >> 1);
         q[7] <= a_lsb;
       end
+
 end
+
 
 always @(*) begin
   if(c6) 

@@ -12,10 +12,9 @@ always@(posedge clk, negedge rst_b) begin
     q <= 0;
   else if (c0)
     q <= 0;
-  else if(c4)
-    q <= q + sum;
-  if(c4) 
-  begin
+  else if(c2)
+    q <= sum;
+ else if(c4)begin
     a_lsb <= q[0];
     a_msb <= q[7];
     q <= (q >> 1);
@@ -25,10 +24,12 @@ always@(posedge clk, negedge rst_b) begin
     
 end
 
+
 always @(*) begin
   if(c5) 
     obus <= q;
   else obus <= 8'bz;
 end
+
 endmodule
 
