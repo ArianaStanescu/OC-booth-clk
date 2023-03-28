@@ -1,7 +1,7 @@
 module adder_xor(
   input [7  : 0] x, y, //x=M; y=A
   input c3,
-  output  [8 : 0] out
+  output  [7 : 0] out
 );
 
 wire [8 : 0] carry;

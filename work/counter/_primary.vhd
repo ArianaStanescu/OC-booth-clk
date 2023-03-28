@@ -5,7 +5,7 @@ entity counter is
         clk             : in     vl_logic;
         rst_b           : in     vl_logic;
         c0              : in     vl_logic;
-        c5              : in     vl_logic;
+        c4              : in     vl_logic;
         count7          : out    vl_logic
     );
 end counter;

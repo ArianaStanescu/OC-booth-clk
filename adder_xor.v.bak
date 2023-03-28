@@ -13,7 +13,7 @@ generate
   genvar i;
     for(i = 0; i < 8; i = i + 1)
       begin : vecti
-        xor_m_c3 inst_xor(.m(x[i]), .cin(c3), .out(out_xor[i]));
+        xor_m_c3 inst_xor(.m(x[i]), .c3(c3), .out(out_xor[i]));
     end
 endgenerate
 

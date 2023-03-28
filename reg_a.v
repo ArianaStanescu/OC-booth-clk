@@ -1,5 +1,5 @@
 module reg_a(
-  input clk, rst_b, c0, c2, c4, c6, //c2 e pt suma
+  input clk, rst_b, c0, c2, c4, c5, //c2 e pt suma
   input [7:0] sum,
   output reg a_lsb,
   output reg [7:0] obus, [7:0] q
@@ -12,8 +12,9 @@ always@(posedge clk, negedge rst_b) begin
     q <= 0;
   else if (c0)
     q <= 0;
-    //c2
-  else if(c4) 
+  else if(c2)
+    q <= q + sum;
+  if(c4) 
   begin
     a_lsb <= q[0];
     a_msb <= q[7];
@@ -25,7 +26,7 @@ always@(posedge clk, negedge rst_b) begin
 end
 
 always @(*) begin
-  if(c6) 
+  if(c5) 
     obus <= q;
   else obus <= 8'bz;
 end

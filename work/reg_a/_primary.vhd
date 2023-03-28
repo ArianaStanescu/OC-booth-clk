@@ -7,7 +7,7 @@ entity reg_a is
         c0              : in     vl_logic;
         c2              : in     vl_logic;
         c4              : in     vl_logic;
-        c6              : in     vl_logic;
+        c5              : in     vl_logic;
         sum             : in     vl_logic_vector(7 downto 0);
         a_lsb           : out    vl_logic;
         obus            : out    vl_logic_vector(7 downto 0);

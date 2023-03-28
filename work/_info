@@ -4,10 +4,10 @@ K3
 cModel Technology
 dD:\Facultate\An 2\Sem1\An 2\Sem 1\AC\modelsim\win32aloem
 vadder_xor
-IaN_m5RPX<<dE3hDLfFfWD1
-VPo2_^c0Jf<AjiE1EE[95U1
+IYAkb9DGZY^=nLHYTQT?n53
+VJX;4j8K5QDYoSzNPKQJYo2
 Z0 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
-w1679666319
+w1679993703
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor.v
 L0 1
@@ -16,14 +16,14 @@ r1
 31
 Z2 !s102 -nocovercells
 Z3 o-work work -nocovercells -O0
-!s100 6VYff@T1Kgno]iX4^GW@a1
+!s100 =4;0B>9<`?N]^D07VC3PF0
 !s85 0
 !s101 -O0
 vadder_xor_tb
 I`6HAU7<HJ:O@aWnb7IULa3
 VWb36l8H4Y2c0FQY9WT2gK1
 Z4 dD:\Facultate\An 2\Sem2\OC\Booth-clk-final
-w1679666818
+w1679670418
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor_tb.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/adder_xor_tb.v
 L0 1
@@ -35,11 +35,43 @@ R3
 !s100 Kg7Im:7M`<TX?VFlgzND^2
 !s85 0
 !s101 -O0
+vbooth
+IZQO?m2M_ZTV2nz>[LZ[1N1
+VLK_[9DG9=TRgI:WaO5]Cb2
+R4
+w1679994794
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/booth.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/booth.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 HQPYZjFd0S=93mMk<08XT0
+!s85 0
+!s101 -O0
+vbooth_tb
+!s100 G2:@Nd38=Yoa6[cHX6<4T0
+I0BXn9d:GVoHa`UZh8ii861
+VjjQP<?;Zz4=k5QKDm_XVV1
+R4
+w1679994929
+8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/booth_tb.v
+FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/booth_tb.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
 vcontrol_unit
 Iga`<<?UYKgl04lbTNFdS63
 V1d2Yc?XOK?0Z1ncl`V^nG0
 R4
-w1679671366
+w1679674966
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit.v
 L0 1
@@ -52,26 +84,26 @@ R3
 !s85 0
 !s101 -O0
 vcontrol_unit_tb
-!s100 `IV3Da_@Ze>>?bX<CIkTC3
 Ig>zO6WGfViK^J[O^OiKha3
 V0fe_`n]a=8]g`ekH8PNmB1
 R4
-w1679671193
+w1679674793
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit_tb.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/control_unit_tb.v
 L0 1
 R1
 r1
-!s85 0
 31
-!s101 -O0
 R2
 R3
+!s100 `IV3Da_@Ze>>?bX<CIkTC3
+!s85 0
+!s101 -O0
 vcounter
-I9FNHO5UdbaJ8m=K?4ME7[1
-VokJF4HM6zVaPPfKoC<ih<3
+ILPWe`838mD8dCV[j3K;lY2
+VN^_1gIe]S?CVXdCj]UC@b2
 R4
-w1679663982
+w1679990325
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/counter.v
 L0 1
@@ -80,14 +112,14 @@ r1
 31
 R2
 R3
-!s100 IO`nV0RlX^Pk;FA^DMT>;0
+!s100 H@:[PJa:W1iT:UVm:1Mj93
 !s85 0
 !s101 -O0
 vfac
 Io8VSfj9>04`m4:oL5k2463
 VkXY]J^5DLHF2EUCg4[FFP1
 R4
-w1679602225
+w1679605825
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/fac.v
 L0 1
@@ -103,7 +135,7 @@ vparallel_adder
 Ig3YJfjjQ<h1S>FTCLj40T1
 VW1?369DNVkmi3JIca:kgf2
 R4
-w1679665605
+w1679669205
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder.v
 L0 1
@@ -119,7 +151,7 @@ vparallel_adder_tb
 IC86f`54GI6m<cl8zdHER=3
 VXTmz;JzAaY:QjV7VNzNXX3
 R4
-w1679666601
+w1679670201
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder_tb.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/parallel_adder_tb.v
 L0 1
@@ -132,10 +164,10 @@ R3
 !s85 0
 !s101 -O0
 vreg_a
-IgM8H5?mRje]d]T>g:=?Kc0
-V<Cf[GS37Q:lNU@SkG6PNz0
+In>N?IXgl1F>]KbjjiAOY=1
+VC;7cZ5F;O@o3ckecKhGUf1
 R4
-w1679657859
+w1679992260
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_a.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_a.v
 L0 1
@@ -144,14 +176,14 @@ r1
 31
 R2
 R3
-!s100 SoTjP^OAz^CT>3MIof4ba3
+!s100 m9QalAn>LNAQ]d?e10SXI3
 !s85 0
 !s101 -O0
 vreg_m
 IN[2[APgMUAg8eTk8W<2c93
 VhLQg:lXX@K<JX=:^;5[Tj2
 R4
-w1679657177
+w1679660777
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_m.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_m.v
 L0 1
@@ -164,10 +196,10 @@ R3
 !s85 0
 !s101 -O0
 vreg_q
-IcJghBA5HFm8cgC;DOeojI2
-VeA=XHLo=ndMZ^?jz_i1dc3
+I7X_aC9Z[N<bT=VfG:UN_[3
+VQ@b7hfa1nSikPFQa4MZ>51
 R4
-w1679657137
+w1679989912
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q.v
 L0 1
@@ -176,14 +208,14 @@ r1
 31
 R2
 R3
-!s100 RKjY>6S_e4XFKKjjLFMTY0
+!s100 j=<T3oCKjS`MT>bN=c23]0
 !s85 0
 !s101 -O0
 vreg_q_1
 IS=BZ]eIT;Kh5QbReTc=K^2
 V=^z_EzzYJ@8IC=21TeXY?1
 R4
-w1679657272
+w1679660872
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q_1.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/reg_q_1.v
 L0 1
@@ -199,7 +231,7 @@ vxor_gate
 IcMMGmC_8<e8G=T7]8nnWg0
 V7IWb16UfeMiFYDFWS70K?0
 R4
-w1679664686
+w1679668286
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate.v
 L0 1
@@ -215,7 +247,7 @@ vxor_gate_tb
 Io:Nh`oUc[ehSlgdz83j720
 V@PFb;MMVlR:LbLIEaHPTm1
 R4
-w1679664496
+w1679668096
 8D:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v
 FD:/Facultate/An 2/Sem2/OC/Booth-clk-final/xor_gate_tb.v
 L0 1
@@ -247,7 +279,7 @@ vxor_m_c3
 IGfZd`VNHU5dl4moz@06D_0
 V=Hi5X8^HP3fCD=`433bm^0
 R4
-w1679664625
+w1679668225
 R5
 R6
 L0 1
