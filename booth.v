@@ -9,7 +9,7 @@ wire c0, c1, c2, c3, c4, c5, c6, q_lsb, q_1, count7, a_lsb;
 wire [7:0] m, a, out_parallel;
 wire [7:0] out_xor;
 
-reg_m leg1( .clk(clk), .rst_b(rst_b), .c0(c0), .ibus(ibus), .q(m));
+reg_m leg1(.clk(clk), .rst_b(rst_b), .c0(c0), .ibus(ibus), .q(m));
 
 reg_a leg4(.clk(clk), .rst_b(rst_b), .c0(c0), .c2(c2), .c4(c4), .c5(c5), 
           .sum(out_parallel), .a_lsb(a_lsb), .q(a), .obus(obus));

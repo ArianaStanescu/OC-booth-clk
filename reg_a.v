@@ -14,7 +14,7 @@ always@(posedge clk, negedge rst_b) begin
     q <= 0;
   else if(c2)
     q <= sum;
- else if(c4)begin
+  else if(c4)begin
     a_lsb <= q[0];
     a_msb <= q[7];
     q <= (q >> 1);

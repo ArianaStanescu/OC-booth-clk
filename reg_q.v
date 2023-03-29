@@ -2,10 +2,10 @@ module reg_q(
   input clk, rst_b, c1, c4, c6, [7:0] ibus,
   input a_lsb,
   output reg q_lsb,
-  output reg [7:0] obus
+  output reg [7:0] obus, [7:0] q
 );
 
-reg [7:0] q;
+//reg [7:0] q;
 
 always @(posedge clk, negedge rst_b) begin
   if(!rst_b)
@@ -24,8 +24,8 @@ end
 
 always @(*) begin
   if(c6) 
-    obus <= q;
-  else obus <= 8'bz;
+    obus = q;
+  else obus = 8'bz;
   
 end
 

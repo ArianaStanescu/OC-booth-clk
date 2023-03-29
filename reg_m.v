@@ -4,7 +4,7 @@ module reg_m(
 );
 
 always@(posedge c0, negedge rst_b) begin
-  if(!rst_b) // if rst_b == 0
+  if(!rst_b)
     q <= 0;
   else if (c0)
     q <= ibus;
